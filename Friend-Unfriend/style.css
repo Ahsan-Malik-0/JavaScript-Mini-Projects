@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Glory:ital,wght@0,100..800;1,100..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Glory", sans-serif;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#card{
+    height: 400px;
+    width: 300px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+}
+
+#card img{
+    height: 50%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+}
+
+#card :where(h1, h3){
+    margin: 15px 0px;
+}
+
+#card h1{
+    font-weight: 800;
+}
+
+#card h3{
+    font-size: 1.5rem;
+    color: red;
+}
+
+#card button{
+    /* height: 30px; */
+    padding: 10px;
+    font-size: 18px;
+    margin: 10px;
+    width: 70%;
+    cursor: pointer;
+    background-color: cadetblue;
+    border: none;
+    color: #fff;
+    border-radius: 20px;
+}
+
