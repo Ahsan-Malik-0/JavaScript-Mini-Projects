@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #202020;
+}
+
+.main{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: cornflowerblue;
+    border-radius: 5px;
+}
+
+.sec{
+    background: white;
+    text-align: center;
+    /* height: 70vh; */
+    min-width: 30%;
+    padding: 20px;
+    border: 1px solid lightgray;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+.sec h1{
+    font-size: 3rem;
+    margin: 20px 0px;
+}
+
+.name,
+.pass{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 20px 0px;
+    gap: 7px;
+}
+
+.sec input{
+    width: 100%;
+    height: 30px;
+    outline: none;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    padding: 0px 10px;
+}
+
+.btn{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#submit, #reset{
+    width: 45%;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 0px;
+    height: auto;
+    border-radius: 5px;
+    /* border: 1px solid black; */
+}
+
+
+.sec i, #nerror, #perror{
+    color: red;
+    font-size: 12px;
+}
