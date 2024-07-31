@@ -7,4 +7,5 @@ List Of JavaScript Mini Projects
     <li>Form Validation</li>
     <li>Friend Unfriend</li>
     <li>Hex Color</li>
+    <li>Reviews</li>
 </ol>
